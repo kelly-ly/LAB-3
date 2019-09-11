@@ -6,6 +6,7 @@
 * checking for file 'assignment3Package/DESCRIPTION' ... OK
 * checking extension type ... Package
 * this is package 'assignment3Package' version '1.0'
+* package encoding: UTF-8
 * checking package namespace information ... OK
 * checking package dependencies ... OK
 * checking if this is a source package ... OK
@@ -16,8 +17,8 @@
 * checking serialization versions ... OK
 * checking whether package 'assignment3Package' can be installed ... WARNING
 Found the following significant warnings:
-  Warning: C:/Users/Kelly Luo/AppData/Local/Temp/Rtmpov9Y91/Rbuild63f8120039ee/assignment3Package/man/assignment3Package-package.Rd:27: All text must be in a section
-  Warning: C:/Users/Kelly Luo/AppData/Local/Temp/Rtmpov9Y91/Rbuild63f8120039ee/assignment3Package/man/assignment3Package-package.Rd:28: All text must be in a section
+  Warning: C:/Users/Kelly Luo/AppData/Local/Temp/RtmpYpazOq/Rbuild480c7cc12bf4/assignment3Package/man/assignment3Package-package.Rd:27: All text must be in a section
+  Warning: C:/Users/Kelly Luo/AppData/Local/Temp/RtmpYpazOq/Rbuild480c7cc12bf4/assignment3Package/man/assignment3Package-package.Rd:28: All text must be in a section
 See 'D:/RWorkSpace/Lab3/LAB-3/assignment3Package.Rcheck/00install.out' for details.
 * checking package directory ... OK
 * checking for future file timestamps ... OK
@@ -49,18 +50,13 @@ prepare_Rd: assignment3Package-package.Rd:28: All text must be in a section
 * checking Rd line widths ... OK
 * checking Rd cross-references ... WARNING
 Rd xrefs里包含了不知来源的程序包'<pkg>'
-* checking for missing documentation entries ... WARNING
-Undocumented code objects:
-  'dijkstra' 'wiki_graph'
-All user-level objects in a package should have documentation entries.
-See chapter 'Writing R documentation files' in the 'Writing R
-Extensions' manual.
+* checking for missing documentation entries ... OK
 * checking for code/documentation mismatches ... OK
 * checking Rd \usage sections ... OK
 * checking Rd contents ... OK
 * checking for unstated dependencies in examples ... WARNING
-Warning: 文件'assignment3Package-Ex.R'里句法分析有错：
-22:11: unexpected symbol
+Warning: 文件'lines'里句法分析有错：
+11: unexpected symbol
 21: 
 22: ~~ simple examples
               ^
@@ -80,4 +76,4 @@ The error most likely occurred in:
 Error: unexpected symbol in "~~ simple examples"
 Execution halted
 * DONE
-Status: 1 ERROR, 5 WARNINGs, 1 NOTE
+Status: 1 ERROR, 4 WARNINGs, 1 NOTE
