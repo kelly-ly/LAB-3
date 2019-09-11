@@ -1,5 +1,14 @@
 # 1.1 Write the R code
 # 1.1.1 euclidean()
+
+#' Find greatest common divisor of two numbers.
+#' @param x1 number 1
+#' @param x2 number 2
+#' @return  The greatest common divisor of \code{x1} and \code{x2}
+#' @examples
+#' euclidean(123612, 13892347912)
+#' euclidean(100, 1000)
+#' @references \url{https://en.wikipedia.org/wiki/Euclidean_algorithm}
 euclidean = function(x1, x2){
   while(x2 != 0){
     temp = x2
