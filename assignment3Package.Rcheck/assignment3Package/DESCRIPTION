@@ -1,0 +1,13 @@
+Package: assignment3Package
+Type: Package
+Title: assignment
+Version: 1.0
+Date: 2019-09-11
+Author: Ying Luo, Zuxiang Li
+Maintainer: Ying Luo<yinlu879@student.liu.se>, Zuxiang Li<zuxli371@student.liu.se>
+Description: Just for assignment 3
+License: None
+RoxygenNote: 6.1.1
+NeedsCompilation: no
+Packaged: 2019-09-11 10:39:25 UTC; Kelly Luo
+Built: R 3.6.1; ; 2019-09-11 10:39:30 UTC; windows
