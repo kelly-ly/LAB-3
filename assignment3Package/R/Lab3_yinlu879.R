@@ -18,17 +18,12 @@ euclidean = function(x1, x2){
   return(x1)
 }
 
-
-euclidean(123612, 13892347912)
-euclidean(100, 1000)
-
 #1.1.2 *dijkstra()
-#1.1.2 *dijkstra()
-#' Add together two numbers.
-#' 
-#' @param df A data frame.
-#' @param init_nod A numbe
-#' @return The shortest path from the start node to others.
+
+#' Dijkstra's algorithm - Find the shortest path of the given graph.
+#' @param df A data frame (the graph).
+#' @param init_nod A numbe (the start node).
+#' @return  The shortest path to every other node from the starting node as a vector. 
 #' @references \url{https://en.wikipedia.org/wiki/Dijkstra\%27s_algorithm}
 #' @examples
 #' wiki_graph <- 

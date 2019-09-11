@@ -2,20 +2,20 @@
 % Please edit documentation in R/Lab3_yinlu879.R
 \name{dijkstra}
 \alias{dijkstra}
-\title{Add together two numbers.}
+\title{Dijkstra's algorithm - Find the shortest path of the given graph.}
 \usage{
 dijkstra(df, init_nod)
 }
 \arguments{
-\item{df}{A data frame.}
+\item{df}{A data frame (the graph).}
 
-\item{init_nod}{A numbe}
+\item{init_nod}{A numbe (the start node).}
 }
 \value{
-The shortest path from the start node to others.
+The shortest path to every other node from the starting node as a vector.
 }
 \description{
-Add together two numbers.
+Dijkstra's algorithm - Find the shortest path of the given graph.
 }
 \examples{
 wiki_graph <- 
