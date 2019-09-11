@@ -35,7 +35,7 @@ euclidean = function(x1, x2){
 #' @export
 
 dijkstra = function(df, init_nod){
-  stopifnot(is.numeric(init_nod))
+  stopifnot(is.numeric(init_nod) && init_nod < length(unique(df$v1)))
   result = rep(NA, length(unique(df$v1)))
   result[init_nod] = 0
   checkList = c(init_nod)
