@@ -2,4 +2,4 @@
 
 language: R
 cache: packages
-before_install: cd /assignment3Package
+before_install: cd assignment3Package
