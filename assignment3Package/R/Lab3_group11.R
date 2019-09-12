@@ -51,5 +51,3 @@ dijkstra = function(df, init_nod){
   }
   return(result)
 }
-
-
