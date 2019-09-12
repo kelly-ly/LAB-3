@@ -18,6 +18,7 @@ euclidean = function(x1, x2){
     x1 = temp
   }
   return(x1)
+  
 }
 
 #1.1.2 *dijkstra()
