@@ -9,3 +9,4 @@ Description: Advanced Programming in R (LAB3), build by group 11.
 License: GPL (>= 2)
 RoxygenNote: 6.1.1
 Encoding: UTF-8
+Suggests: testthat (>= 2.1.0)
